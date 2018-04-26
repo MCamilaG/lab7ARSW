@@ -8,10 +8,7 @@ package edu.eci.arsw.collabpaint.persistence;
 import edu.eci.arsw.collabpaint.model.Point;
 
 
-/**
- *
- * @author danie
- */
+
 public interface persistence {
     public void handlePointEvent(Point pt, String numdibujo);
 }
